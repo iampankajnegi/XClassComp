@@ -31,7 +31,7 @@ class Counter extends Component{
         return(
             <div>
                 <h1>Counter App</h1>
-                <p>count: {count}</p>
+                <p>Count: {count}</p>
                 <button onClick={this.handleIncrement}>Increment</button>
                 <button onClick={this.handleDecrement}>Decrement</button>
             </div>
